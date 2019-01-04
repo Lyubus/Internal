@@ -1,0 +1,20 @@
+.navbar{
+    background-color: rgba(200,200,200,.45);
+    @media screen and (max-width: 991px){
+        background-color: rgba(200,200,200,1);
+    }
+    .navbar-collapse{
+        .navbar-nav{
+            .nav-item{
+                height: 100%;
+            }
+        }
+        .dropdown{
+            div{
+                p{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
