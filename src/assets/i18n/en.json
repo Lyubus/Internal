@@ -1,0 +1,10 @@
+{
+    "HEADER": {
+        "TEXT_LANGUAGE": "lang",
+        "TEXT_UA": "UA",
+        "TEXT_EN": "EN",
+        "TEXT_LOGO": "Logo",
+        "TEXT_SEARCH": "Search",
+        "TEXT_LOGIN": "Login"
+    }
+}
