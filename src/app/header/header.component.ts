@@ -1,5 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,16 +6,7 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-
-  @Input() isScrolled;
-
-  constructor(private translate: TranslateService) {
-    translate.setDefaultLang('en');
-  }
-
-  switchLanguage(language: string) {
-    this.translate.use(language);
-  }
+  constructor() { }
 
   ngOnInit() {
   }
